@@ -5,6 +5,18 @@
 <meta charset="utf-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
 <style>
+ .subject1{background-color:yellow; }
+ .subject2{background-color:green;}
+ .subject3{background-color:gold;}
+ .subject4{background-color:pink;}
+ .subject5{background-color:orange;}
+ .subject6{background-color:lightgreen;}
+ .subject7{background-color:gray;}
+ .subject8{background-color:cyan;}
+ table,th,td{border:1px solid blue; border-collapse:collapse;} 
+ table{width:50%;} td, th{height: 40px;}
+ td {vertical-align:center;}
+ td {text-align:center;}
  header, nav, section, article, aside, footer
  {border:1px solid gray; margin:5px; padding:8px; width:1000px;}
  header img{width:467px;height:960px;}
@@ -46,7 +58,23 @@ a:active {
   </br>장단점,성격 등등 추가예정</p>
 </section>
 <section><h3 id="chapter2"><a href="https://qkrqud2916.github.io/qkrqud2916.github.io/20180328/timeTable.html">시간표</h3></a>
- <p>제 시간표 입니다.</p>
+ <p>시간표 입니다.</p>
+ <table>
+ <thead>
+ <tr><th>요일/시간</th><th>월</th><th>화</th><th>수</th><th>목</th><th>금</th></tr>
+ </thead>
+ <tbody>
+ <tr> <td>1교시</td> <td></td> <td rowspan="3" class = "subject6">사회과학<br>방법론</td> <td></td> <td></td> <td rowspan="9" class = "subject7">공강</td> </tr>
+ <tr> <td>2교시</td> <td></td> <td></td> <td></td>  </tr>
+ <tr> <td>3교시</td> <td rowspan="2" class = "subject1">디지털 논리<br>회로</td>  <td rowspan="2" class = "subject3"> 자료구조</td> <td rowspan="2" class = "subject3"> 자료구조</td> </tr>
+ <tr> <td>4교시</td> <td></td>  </tr>
+ <tr> <td>5교시</td> <td></td> <td class = "subject1">디지털 논리<br>회로</td> <td></td> <td rowspan="2" class = "subject4">인터넷<br>프로그래밍</td> </tr>
+ <tr> <td>6교시</td> <td rowspan="4" class = "subject5">C++</td> <td></td> <td></td> </tr>
+ <tr> <td>7교시</td> <td rowspan="3" class = "subject8">디지털시대의<br>현대마술사</td> <td></td> <td rowspan="2" class = "subject2">멘토링</td> </tr>
+ <tr> <td>8교시</td> <td rowspan="2" class = "subject4">인터넷<br>프로그래밍</td> </tr>
+ <tr> <td>9교시</td> <td></td> </tr>
+ </tbody>
+ </table>
  <p></p>
  <p>제1장에서 공부한 내용이 궁금하다면 다음을 <a href="#chapter1">클릭</a>하세요.</p></section>
  <section><h3 id="chapter3">제3장</h3>
