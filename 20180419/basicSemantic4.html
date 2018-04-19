@@ -1,4 +1,4 @@
-<!DOCTYPEhtml> <!-- basicSemantic4.html-->
+<!DOCTYPE html> <!-- basicSemantic4.html-->
 <html lang="ko">
 <head>
 <meta charset="utf-8"/>
@@ -6,6 +6,10 @@
 <style>
  header, nav, section, article, aside, footer
  {border:1px solid gray; margin:5px; padding:8px; width:1000px;}
+ header h2{ float:left; border:solid 1px gray; margin; 0 0 0 0;}
+ header #headMenu { float:right; border:solid 1px gary; margin:20px: 0 0 0;}
+ header ul { margin:0; padding:0;}
+ header ul li { display:inline; margin:5px;}
  header img{width:990px;height:200px;}
  section {width:750px; float:left;}
  section section {width:725px;float:left;}
@@ -29,14 +33,20 @@ a:active {
 </head>
 <body>
  <header>
-  <h2>실습을 환영합니다</h2>
- <img src="../20180404/scene.png"alt="히말라야"/>
+ <h2><a href="https://qkrqud2916.github.io/20180419/basicSemantic4.html">실습을 환영합니다</a></h2>
+ <ul id="headMenu">
+ <li>로그인│</li>
+ <li><a href="https://qkrqud2916.github.io/20180419/basicSemanticMember1.html">회원가입</a>│</li>
+ <li>사이트맵</li>
+ </ul>
+ <img src="https://qkrqud2916.github.io/20180404/scene.png" alt="히말라야"/>
  </header>
  <nav>
   <ul>
-   <li><a href="http://www.naver.com" target="_blank">네이버(새윈도우)</a></li>
-   <li><a href="anchor2.html">사이트내문서이동</a></li>
-   <li><a href="#chapter1">제1장이동(북마크이동)</a></li>
+   <li><a href="http://www.w3.org/TR/html5/" target="_blank">HTML5</a></li>
+   <li><a href="http://jquery.com/" target="_blank" >jQuery</a></li>
+   <li><a href="https://jquerymobile.com/" target="_blank">jQuery Mobile</a></li>
+   <li><a href="https://qkrqud2916.github.io/20180419/jspintro.html"></a></li>
   </ul></nav>
  <section> <!-- main-->
  <section><a href="anchor2.html"><h3 id="chapter1">오늘의 교통상황</h3></a>
